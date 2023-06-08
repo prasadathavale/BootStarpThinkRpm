@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;1,100&family=Manrope:wght@200;300;400;500;600;800&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,900;1,800&family=Inter:wght@900&family=Josefin+Sans:ital,wght@0,100;0,200;1,100&family=Manrope:wght@200;300;400;500;600;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,900;1,800&family=Inter:wght@900&family=Josefin+Sans:ital,wght@0,100;0,200;1,100&family=Manrope:wght@200;300;400;500;600;800&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,900;1,800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;1,100&family=Manrope:wght@200;300;400;500;600;800&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;1,100&family=Manrope:wght@200;300;400;500;600;800&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --heading-color:#0077C5;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.img-container {
+    height: 100%;
+    /* max-height:200px; */
+}
+
+.img-container img {    
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.left-container h2 {
+    font-family: 'Inter', sans-serif;
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 1.93rem;
+}
+
+.left-container h5 {
+    color:var(--heading-color);
+    margin-top: 22px;
+    font-size: 1.38rem;
+    font-weight: 500;
+}
+
+.form-check-label {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    color:var(--heading-color);
+    text-decoration: none;
+    margin: 0 0 0 5px;
+}
+
+.form-check a {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    color: var(--heading-color);
+    text-decoration: none;
+}
+
+form .btn-block {
+    background: #00BAC7;
+    height: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+form .btn-block:hover{
+    background: #0ca0abdf;
+    height: 50px;
+}
+
+.form-group input {
+    font-size: 1.1rem;
+    font-family: 'Barlow';
+    padding: 0.65rem;
+    /* box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 5%); */
+}
+
+#exampleCheck1 {
+    font-size: 24px;
+    margin: 0px 0 0px -25px;
+}
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 992px) {
+    .left-container {
+        padding: 130px 0;
+    }
+
+    #exampleCheck1 {
+        margin: 0 0 0 -26px;
+    }
+
+}
